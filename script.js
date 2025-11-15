@@ -1,4 +1,4 @@
-const apiLink = "link-to-your-api-endpoint";
+const apiLink = "test";
 
 function setLoading(isLoading) {
   const btnSpan = document.getElementById("generate-btn");

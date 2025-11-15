@@ -24,20 +24,19 @@ body {
 
 .header h1 {
   margin-bottom: 16px;
-  font-size: 42px;
+  font-size: 48px;
   text-align: center;
 }
 
 .header .subtitle {
-  text-align: center;
-  font-size: 18px;
   color: rgba(255, 255, 255, 0.8);
+  font-size: 19px;
 }
 
 .container {
   max-width: 1024px;
   margin: 0 auto;
-  z-index: 999;
+  z-index: 99;
   position: relative;
 }
 
@@ -64,7 +63,6 @@ body {
   border-radius: 8px;
   font-size: 16px;
   margin-bottom: 20px;
-  resize: none;
 }
 
 .form-group textarea:focus {
