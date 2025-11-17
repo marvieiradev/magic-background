@@ -1,4 +1,4 @@
-const apiLink = "test";
+const apiLink = "api-link-here";
 
 function setLoading(isLoading) {
   const btnSpan = document.getElementById("generate-btn");
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
       htmlCode.textContent = data.code || "";
       cssCode.textContent = data.style || "";
 
-      preview.style.display = "block";
+      preview.style.display = "flex";
       preview.innerHTML = data.code || "";
 
       let styleTag = document.getElementById("dynamic-style");
